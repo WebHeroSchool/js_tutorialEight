@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+}
+
+.countdownContainer {
+  margin-bottom: 50px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-block {
+  color: red;
+}
+
+.question {
+  font-size: 35px;
+  margin-top: 145px;
+  margin-bottom: 100px;
+}
+
+.answers {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+label:hover,
+input:hover {
+  cursor: pointer;
+}
+
+button {
+  font-size: 20px;
+  color: #212020;
+  background-color: #3d8dd0;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-top: 400px;
+}
+
+button:hover {
+  background-color: #937ab9;
+}
+
+.sbmt-button {
+  font-size: 10px;
+  color: #212020;
+  background-color: #fdbfbc;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 0;
+  margin-top: 250px;
+}
+
+.sbmt-button:hover {
+  background-color: #937ab9;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.active-slide {
+  opacity: 2;
+  z-index: 3;
+}
+
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.results-conteiner {
+  font-size: 35px;
+}
